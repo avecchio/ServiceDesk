@@ -1,6 +1,6 @@
-secret_key_base: AHCulA-BjdEgU0RVRKHBlmKENSh4VxrerImDXNVTRY8
+secret_key_base: 0BVG47pMEjIZypgU40LyoGc_t5I9N9aTEncrBtV7ZmI
 port: 3000
-name: server
+name: serviceman-api
 logging:
   severity: debug
   colorize: true
@@ -22,7 +22,7 @@ process_count: 1
 # ssl_key_file:
 # ssl_cert_file:
 redis_url: "redis://localhost:6379"
-database_url: postgres://postgres:@localhost:5432/server_test
+database_url: postgres://postgres:@localhost:5432/serviceman_api_test
 session:
   key: amber.session
   store: signed_cookie

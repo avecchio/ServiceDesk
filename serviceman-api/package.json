@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "serviceman-api",
   "version": "0.1.0",
-  "description": "Server with Amber",
+  "description": "Serviceman Api with Amber",
   "private": true,
   "author": "Austin Vecchio",
   "license": "UNLICENSED",

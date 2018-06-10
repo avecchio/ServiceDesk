@@ -1,4 +1,4 @@
-name: server
+name: serviceman-api
 version: 0.1.0
 
 authors:
@@ -9,8 +9,8 @@ crystal: 0.24.2
 license: UNLICENSED
 
 targets:
-  server:
-    main: src/server.cr
+  serviceman-api:
+    main: src/serviceman-api.cr
 
   amber:
     main: lib/amber/src/amber/cli.cr

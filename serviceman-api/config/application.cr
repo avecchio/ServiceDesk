@@ -28,7 +28,7 @@ Amber::Server.configure do |settings|
   # Name: A name that identifies this application. This is not internally
   # used by the framework.
   #
-  # settings.name = "Server web application."
+  # settings.name = "Serviceman Api web application."
   #
   #
   # Colorize Logging: specifies whether or not to use ANSI color codes
@@ -52,7 +52,7 @@ Amber::Server.configure do |settings|
   # initialized to a random key present in `ENV["AMBER_SECRET_KEY"]` or
   # `.amber_secret_key` in this order.
   #
-  # settings.secret_key_base= 8gOFG0zNoikYb5k3hGgnW39XQ62ig53kKX5D6R70L1c
+  # settings.secret_key_base= 0KUgXHOn0TeZzjtEUHM4SYeUDc9SoMT8TrKArTo0XQI
   #
   #
   # Host: is the application server host address or ip address. Useful for when
@@ -126,7 +126,7 @@ Amber::Server.configure do |settings|
   # Logger: is the logger that Amber and other capable shards in the project will use
   # instead of writing directly to STDOUT. Supply a custom logger to write to syslog, etc.
   #
-  # settings.logger = Amber::Environment::Logger.new(File.open("server.log", "w"))
+  # settings.logger = Amber::Environment::Logger.new(File.open("serviceman-api.log", "w"))
   #
   #
 end

@@ -1,4 +1,4 @@
-# server
+# serviceman-api
 
 This project is powered by [Amber Framework](https://amberframework.org/).
 
@@ -29,7 +29,7 @@ To build and run a **production** release:
 npm run release
 amber db create migrate
 shards build --production --release
-./bin/server
+./bin/serviceman-api
 ```
 
 ## Docker Compose
@@ -50,7 +50,7 @@ docker-compose logs -f
 
 ## Contributing
 
-1. Fork it ( https://github.com/your-github-user/server/fork )
+1. Fork it ( https://github.com/your-github-user/serviceman-api/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
