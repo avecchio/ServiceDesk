@@ -1,0 +1,45 @@
+<mat-grid-list cols="3">
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card>
+            <mat-card-header>
+                <mat-card-title>
+                    <div>
+                        <mat-grid-list cols="1">
+                            <mat-grid-tile>
+                                <img class="card-logo" src="/assets/handyman_logo.png" />
+                            </mat-grid-tile>
+                        </mat-grid-list>
+
+                    </div>
+                    <div>
+                        <span>
+                          Service-Man
+                        </span>
+                    </div>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <form [formGroup]="loginForm">
+
+                    <div>
+                        <mat-form-field>
+                            <input matInput placeholder="Username" formControlName="username" required>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <mat-form-field>
+                            <input matInput placeholder="Password" formControlName="password" required>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <button mat-stroked-button (click)="authenticateUser()">
+                            Login
+                        </button>
+                    </div>
+                </form>
+            </mat-card-content>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+</mat-grid-list>
